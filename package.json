@@ -9,6 +9,8 @@
   "private": false,
   "dependencies": {
     "2captcha": "^3.0.7",
+    "puppeteer": "^21.1.1",
+    "puppeteer-with-fingerprints": "^1.4.1",
     "selenium-webdriver": "^4.12.0"
   }
 }

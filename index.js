@@ -2,7 +2,7 @@ const { Builder, By } = require("selenium-webdriver");
 const chrome = require("selenium-webdriver/chrome");
 const fs = require("fs");
 const TwoCaptcha = require("2captcha");
-const { error } = require("console");
+
 
 // const solver = new TwoCaptcha('YOUR_API_KEY');
 const chromeOptions = new chrome.Options();
@@ -29,7 +29,7 @@ chromeOptions.addArguments(
 
     console.log("in try block");
 
-    await driver.sleep(30000);
+    await driver.sleep(3000);
 
     driver
       .findElements({
